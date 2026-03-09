@@ -11,7 +11,7 @@ const translations = {
     statistics: "Statistics",
     contact: "Contact",
     hero_kicker: "Est. 2024 • Premium Studio",
-    hero_heading: "We turn bold visions into enduring architecture.",
+    hero_heading: "We build with confidence for a better tomorrow.",
     hero_subtitle:
       "At FutureBuild, we merge cutting-edge technology with meticulous craftsmanship to create spaces that redefine modern living.",
     hero_cta_primary: "Request a Free Consultation",
@@ -93,7 +93,7 @@ const translations = {
     statistics: "الإحصائيات",
     contact: "تواصل معنا",
     hero_kicker: "تأسس 2024 • استوديو هندسي",
-    hero_heading: "نحوّل الرؤى الجريئة إلى صروح معمارية خالدة.",
+    hero_heading: "نبني بثقة من أجل غدٍ أفضل.",
     hero_subtitle:
       "في فيوتشر بيلد نمزج بين التكنولوجيا الحديثة والدقة الهندسية لنصمم مساحات تعيد تعريف أسلوب الحياة المعاصر.",
     hero_cta_primary: "احجز استشارة مجانية",
