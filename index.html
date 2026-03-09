@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <title>FutureBuild Architects | Premium Architectural Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="FutureBuild Architects delivers high-end architectural design, project management, and construction services for visionary clients."
+  />
+  <!-- Google Fonts for bilingual support -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Cairo:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Page loader -->
+  <div class="page-loader">
+    <div class="page-loader__spinner"></div>
+  </div>
+
+  <!-- ================= Header & Sticky Navigation ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Logo / Brand -->
+      <a href="#hero" class="brand">
+        <span class="brand-mark">FB</span>
+        <span class="brand-text">
+          <span class="brand-name">FutureBuild</span>
+          <span class="brand-tagline">Architects</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#hero" data-i18n="home">Home</a></li>
+          <li><a href="#about" data-i18n="about">About</a></li>
+          <li><a href="#services" data-i18n="services">Services</a></li>
+ 
+          <li><a href="#stats" data-i18n="statistics">Statistics</a></li>
+          <li><a href="#contact" data-i18n="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Language Switch -->
+      <button
+        type="button"
+        class="lang-toggle"
+        aria-label="Switch language"
+      >
+        EN / AR
+      </button>
+
+      <!-- Mobile Menu Toggle -->
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav
+      id="mobile-menu"
+      class="mobile-nav"
+      aria-label="Mobile primary"
+    >
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" data-i18n="home">Home</a></li>
+        <li><a href="#about" data-i18n="about">About</a></li>
+        <li><a href="#services" data-i18n="services">Services</a></li>
+  
+        <li><a href="#stats" data-i18n="statistics">Statistics</a></li>
+        <li><a href="#contact" data-i18n="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= Main Content ================= -->
+  <main>
+    <!-- =============== Hero Section =============== -->
+    <section id="hero" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-media" role="presentation">
+<img src="iamge/68f09bd1ff4a44e172257c23_service2.jpg" alt="img" />
+      </div>
+      <div class="hero-content container reveal-on-scroll">
+        <p class="hero-kicker" data-i18n="hero_kicker">Est. 2024 • Premium Studio</p>
+        <h1 id="hero-heading" class="hero-heading">
+          <span data-i18n="hero_heading">We turn bold visions into enduring architecture.</span>
+        </h1>
+        <p class="hero-subtitle">
+          <span data-i18n="hero_subtitle">
+            At FutureBuild, we merge cutting-edge technology with meticulous
+            craftsmanship to create spaces that redefine modern living.
+          </span>
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero_cta_primary">Request a Free Consultation</a>
+          <a href="#projects" class="btn btn-ghost" data-i18n="hero_cta_secondary">View Signature Projects</a>
+        </div>
+        <dl class="hero-highlight">
+          <div class="hero-stat">
+            <dt data-i18n="hero_stat1_label">On-time completion</dt>
+            <dd data-i18n="hero_stat1_value">98%</dd>
+          </div>
+          <div class="hero-stat">
+            <dt data-i18n="hero_stat2_label">Projects delivered</dt>
+            <dd data-i18n="hero_stat2_value">120+</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- =============== About Company Section =============== -->
+    <section id="about" class="section about" aria-labelledby="about-heading">
+      <div class="container section-inner section-inner--split">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-kicker" data-i18n="about_kicker">About the studio</p>
+          <h2 id="about-heading" class="section-title">
+            <span data-i18n="about_title">Crafting tomorrow’s landmarks today.</span>
+          </h2>
+      <img src="iamge/68f09bd1ff4a44e172257c23_service2.jpg" alt="img" />
+
+        </div>
+        <div class="about-body reveal-on-scroll">
+          <p>
+            <span data-i18n="about_paragraph1">
+              FutureBuild Architects is a multidisciplinary studio dedicated to
+              creating refined, high-performance spaces for discerning clients.
+              From first sketch to final handover, we orchestrate every detail
+              with precision and transparency.
+            </span>
+          </p>
+          <p>
+            <span data-i18n="about_paragraph2">
+              Our team brings together architects, engineers, and project managers
+              who share a single goal: to transform ambitious briefs into
+              timeless, functional architecture that elevates everyday life.
+            </span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== Services Section =============== -->
+    <section id="services" class="section services" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-header section-header--center reveal-on-scroll">
+          <p class="section-kicker" data-i18n="services_kicker">Our services</p>
+          <h2 id="services-heading" class="section-title">
+            <span data-i18n="services_title">End-to-end architectural solutions.</span>
+          </h2>
+          <p class="section-description">
+            <span data-i18n="services_description">
+              From concept to construction, we provide fully integrated services
+              that keep your project aligned with its vision, budget, and timeline.
+            </span>
+          </p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card reveal-on-scroll">
+            <p class="service-index">01</p>
+            <h3 class="service-title" data-i18n="service1_title">Architectural Design</h3>
+            <p class="service-text">
+              <span data-i18n="service1_text">
+                Distinctive, functional designs that balance aesthetics, comfort,
+                and long-term performance.
+              </span>
+            </p>
+          </article>
+
+          <article class="service-card reveal-on-scroll">
+            <p class="service-index">02</p>
+            <h3 class="service-title" data-i18n="service2_title">Project Management</h3>
+            <p class="service-text">
+              <span data-i18n="service2_text">
+                Rigorous planning and coordination that keep every stakeholder
+                aligned from day one.
+              </span>
+            </p>
+          </article>
+
+          <article class="service-card reveal-on-scroll">
+            <p class="service-index">03</p>
+            <h3 class="service-title" data-i18n="service3_title">Construction &amp; Delivery</h3>
+            <p class="service-text">
+              <span data-i18n="service3_text">
+                High-standard construction overseen by seasoned engineers for
+                quality that stands the test of time.
+              </span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== Projects / Portfolio Section ===============
+    <section id="projects" class="section projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header section-header--between">
+          <div>
+            <p class="section-kicker" data-i18n="projects_kicker">Selected work</p>
+            <h2 id="projects-heading" class="section-title">
+              <span data-i18n="projects_title">Signature projects &amp; case studies.</span>
+            </h2>
+          </div>
+          <a href="#contact" class="link-inline" data-i18n="projects_cta">Discuss your project</a>
+        </header>
+
+        <div class="projects-grid">
+          Each figure uses placeholder images; replace src paths with your own -->
+          <!-- <figure class="project-card" data-portfolio-item>
+            <div class="project-image-wrapper">
+              <img
+                src="images/project-1-placeholder.jpg"
+                alt="Modern villa exterior"
+                class="project-image"
+              />
+              <div class="project-overlay">
+                <span class="project-overlay-label" data-i18n="project1_tag">Residential</span>
+              </div>
+            </div>
+            <figcaption class="project-caption">
+              <span data-i18n="project1_title">Horizon Residence</span>
+            </figcaption>
+          </figure> -->
+
+          <!-- <figure class="project-card" data-portfolio-item>
+            <div class="project-image-wrapper">
+              <img
+                src="images/project-2-placeholder.jpg"
+                alt="Corporate office building"
+                class="project-image"
+              />
+              <div class="project-overlay">
+                <span class="project-overlay-label" data-i18n="project2_tag">Commercial</span>
+              </div>
+            </div>
+            <figcaption class="project-caption">
+              <span data-i18n="project2_title">Axis Business Tower</span>
+            </figcaption>
+          </figure> -->
+<!-- 
+          <figure class="project-card" data-portfolio-item>
+            <div class="project-image-wrapper">
+              <img
+                src="images/project-3-placeholder.jpg"
+                alt="Mixed-use development"
+                class="project-image"
+              />
+              <div class="project-overlay">
+                <span class="project-overlay-label" data-i18n="project3_tag">Mixed-use</span>
+              </div>
+            </div>
+            <figcaption class="project-caption">
+              <span data-i18n="project3_title">Meridian Complex</span>
+            </figcaption>
+          </figure> -->
+
+          <!-- <figure class="project-card" data-portfolio-item>
+            <div class="project-image-wrapper">
+              <img
+                src="images/project-4-placeholder.jpg"
+                alt="Interior lobby design"
+                class="project-image"
+              />
+              <div class="project-overlay">
+                <span class="project-overlay-label" data-i18n="project4_tag">Interior</span>
+              </div>
+            </div>
+            <figcaption class="project-caption">
+              <span data-i18n="project4_title">Lumière Lobby</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section> --> 
+
+    <!-- =============== Statistics / Achievements Section =============== -->
+    <section id="stats" class="section stats" aria-labelledby="stats-heading">
+      <div class="container">
+        <header class="section-header section-header--center reveal-on-scroll">
+          <p class="section-kicker" data-i18n="stats_kicker">By the numbers</p>
+          <h2 id="stats-heading" class="section-title">
+            <span data-i18n="stats_title">Proven performance across every project.</span>
+          </h2>
+        </header>
+
+        <dl class="stats-grid">
+          <div class="stat-item reveal-on-scroll">
+            <dt
+              class="stat-value"
+              data-i18n="stat1_value"
+              data-counter
+              data-counter-target="15"
+              data-counter-suffix="+"
+            >
+              15+
+            </dt>
+            <dd class="stat-label" data-i18n="stat1_label">Years of combined experience</dd>
+          </div>
+          <div class="stat-item reveal-on-scroll">
+            <dt
+              class="stat-value"
+              data-i18n="stat2_value"
+              data-counter
+              data-counter-target="120"
+              data-counter-suffix="+"
+            >
+              120+
+            </dt>
+            <dd class="stat-label" data-i18n="stat2_label">Projects successfully delivered</dd>
+          </div>
+          <div class="stat-item reveal-on-scroll">
+            <dt
+              class="stat-value"
+              data-i18n="stat3_value"
+              data-counter
+              data-counter-target="98"
+              data-counter-suffix="%"
+            >
+              98%
+            </dt>
+            <dd class="stat-label" data-i18n="stat3_label">Projects completed on schedule</dd>
+          </div>
+          <div class="stat-item reveal-on-scroll">
+            <dt
+              class="stat-value"
+              data-i18n="stat4_value"
+              data-counter
+              data-counter-target="4.9"
+            >
+              4.9
+            </dt>
+            <dd class="stat-label" data-i18n="stat4_label">Average client rating</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- =============== Contact Section =============== -->
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container section-inner section-inner--split">
+        <header class="section-header reveal-on-scroll">
+          <p class="section-kicker" data-i18n="contact_kicker">Contact</p>
+          <h2 id="contact-heading" class="section-title">
+            <span data-i18n="contact_title">Let’s shape your next landmark.</span>
+          </h2>
+          <p class="section-description">
+            <span data-i18n="contact_description">
+              Share a few details about your upcoming project and our team will
+              reach out within one business day.
+            </span>
+          </p>
+          <div class="contact-details">
+            <p><strong>Email</strong> hello@futurebuild.studio</p>
+            <p><strong>Phone</strong> +1 (555) 123-4567</p>
+            <p><strong>Location</strong> Riyadh &amp; Dubai</p>
+          </div>
+        </header>
+
+        <form class="contact-form reveal-on-scroll" action="#" method="post" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name" data-i18n="contact_label_name">Full name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="email" data-i18n="contact_label_email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+          </div>
+
+     
+           
+            <div class="form-field">
+              <label for="budget" data-i18n="contact_label_budget">What are you asking about?</label>
+              <select id="budget" name="budget">
+                <option value="" data-i18n="budget_placeholder">Choose a topic</option>
+                <option value="250k-500k" data-i18n="budget_option1">General inquiry</option>
+                <option value="500k-1m" data-i18n="budget_option2">General inquiry</option>
+                <option value="1m-5m" data-i18n="budget_option3">General inquiry</option>
+                <option value="5m-plus" data-i18n="budget_option4">General inquiry</option>
+              </select>
+      
+          </div>
+
+          <div class="form-field">
+            <label for="message" data-i18n="contact_label_message">Project details</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              data-i18n-placeholder="contact_placeholder_message"
+              placeholder="Tell us about your timeline, site location, and project goals."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            <span data-i18n="contact_cta">Send inquiry</span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">FB</span>
+        <span class="brand-name" data-i18n="footer_brand">FutureBuild Architects</span>
+        <p class="footer-text">
+          <span data-i18n="footer_text">
+            Designing future-ready spaces with precision, transparency, and
+            sustainable thinking.
+          </span>
+        </p>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3 class="footer-heading" data-i18n="footer_studio_heading">Studio</h3>
+          <ul class="footer-links">
+            <li><a href="#about" data-i18n="about">About</a></li>
+            <li><a href="#services" data-i18n="services">Services</a></li>
+            <li><a href="#projects" data-i18n="projects">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-heading" data-i18n="footer_connect_heading">Connect</h3>
+          <ul class="footer-links footer-social">
+            <li><a href="#" aria-label="Visit our Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Visit our LinkedIn">LinkedIn</a></li>
+            <li><a href="#" aria-label="Visit our Behance">Behance</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="footer-copy">
+          © <span id="year"></span> <span data-i18n="footer_brand">FutureBuild Architects</span>. <span data-i18n="footer_rights">All rights reserved.</span>
+        </p>
+          <p class="footer-madeby" data-i18n="footer_madeby">Website concept for demo purposes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
