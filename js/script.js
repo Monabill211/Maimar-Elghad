@@ -15,11 +15,11 @@ const translations = {
     hero_subtitle:
       "At FutureBuild, we merge cutting-edge technology with meticulous craftsmanship to create spaces that redefine modern living.",
     hero_cta_primary: "Request a Free Consultation",
-    hero_cta_secondary: "View Signature Projects",
+    hero_cta_secondary: "View Signature Services ",
     hero_stat1_label: "On-time completion",
     hero_stat1_value: "98%",
     hero_stat2_label: "Projects delivered",
-    hero_stat2_value: "120+",
+    hero_stat2_value: "10+",
     about_kicker: "About the studio",
     about_title: "Crafting tomorrow’s landmarks today.",
     about_paragraph1:
@@ -52,9 +52,9 @@ const translations = {
     project4_title: "Lumière Lobby",
     stats_kicker: "By the numbers",
     stats_title: "Proven performance across every project.",
-    stat1_value: "15+",
+    stat1_value: "2+",
     stat1_label: "Years of combined experience",
-    stat2_value: "120+",
+    stat2_value: "10+",
     stat2_label: "Projects successfully delivered",
     stat3_value: "98%",
     stat3_label: "Projects completed on schedule",
@@ -77,10 +77,10 @@ const translations = {
     contact_placeholder_message:
       "Tell us about your timeline, site location, and project goals.",
     contact_cta: "Send inquiry",
-    footer_brand: "FutureBuild Architects",
+    footer_brand: "Mimar Alghad Architects",
     footer_text:
-      "Designing future-ready spaces with precision, transparency, and sustainable thinking.",
-    footer_studio_heading: "Studio",
+      "We build with confidence for a better tomorrow.",
+    footer_studio_heading: "Quick links",
     footer_connect_heading: "Connect",
     footer_rights: "All rights reserved.",
     footer_madeby: "Website concept for demo purposes."
@@ -97,11 +97,11 @@ const translations = {
     hero_subtitle:
       "في فيوتشر بيلد نمزج بين التكنولوجيا الحديثة والدقة الهندسية لنصمم مساحات تعيد تعريف أسلوب الحياة المعاصر.",
     hero_cta_primary: "احجز استشارة مجانية",
-    hero_cta_secondary: "استعرض مشاريعنا المميزة",
+    hero_cta_secondary: "استعرض خدمتنا المميزة",
     hero_stat1_label: "نسبة إنجاز في الموعد",
     hero_stat1_value: "98٪",
     hero_stat2_label: "مشروع تم تسليمه",
-    hero_stat2_value: "120+",
+    hero_stat2_value: "10+",
     about_kicker: "عن الاستوديو",
     about_title: "نصنع معالم الغد من اليوم.",
     about_paragraph1:
@@ -134,9 +134,9 @@ const translations = {
     project4_title: "بهو لوميير",
     stats_kicker: "بلغة الأرقام",
     stats_title: "نتائج موثوقة في كل مشروع.",
-    stat1_value: "15+",
+    stat1_value: "2+",
     stat1_label: "سنوات من الخبرة المتراكمة",
-    stat2_value: "120+",
+    stat2_value: "10+",
     stat2_label: "مشروع تم تسليمه بنجاح",
     stat3_value: "98٪",
     stat3_label: "مشاريع أُنجزت في الوقت المحدد",
@@ -159,10 +159,10 @@ const translations = {
     contact_placeholder_message:
       "أخبرنا عن موقع المشروع، والجدول الزمني، وأهم أهدافك.",
     contact_cta: "إرسال الطلب",
-    footer_brand: "فيوتشر بيلد للهندسة المعمارية",
+    footer_brand: "معمار الغد للهندسة المعمارية",
     footer_text:
-      "نصمم مساحات مستقبلية بدقة وشفافية وفكر مستدام.",
-    footer_studio_heading: "الاستوديو",
+      " نبني بثقة من أجل غدٍ أفضل.",
+    footer_studio_heading:  " راوبط سريعة ",
     footer_connect_heading: "تواصل",
     footer_rights: "جميع الحقوق محفوظة.",
     footer_madeby: "مفهوم موقع تجريبي لأغراض العرض."
