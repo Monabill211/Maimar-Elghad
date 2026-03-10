@@ -13,7 +13,7 @@ const translations = {
     hero_kicker: "Est. 2024 • Premium Studio",
     hero_heading: "We build with confidence for a better tomorrow.",
     hero_subtitle:
-      "At FutureBuild, we merge cutting-edge technology with meticulous craftsmanship to create spaces that redefine modern living.",
+      "At MimarAlghad, we merge cutting-edge technology with meticulous craftsmanship to create spaces that redefine modern living.",
     hero_cta_primary: "Request a Free Consultation",
     hero_cta_secondary: "View Signature Services ",
     hero_stat1_label: "On-time completion",
@@ -67,13 +67,13 @@ const translations = {
     contact_label_name: "Full name",
     contact_label_email: "Email address",
     contact_label_company: "Company (optional)",
-    contact_label_budget: "Estimated budget",
-    contact_label_message: "Project details",
-    budget_placeholder: "Select range",
-    budget_option1: "$250k – $500k",
-    budget_option2: "$500k – $1M",
-    budget_option3: "$1M – $5M",
-    budget_option4: "$5M+",
+    contact_label_budget: "What are you asking about?",
+    contact_label_message: " Topic details",
+    budget_placeholder: "Choose a topic",
+    budget_option1: "Engineering Consultation",
+    budget_option2: "Construction Work",
+    budget_option3: "Finishing Services",
+    budget_option4: "Architectural Design",
     contact_placeholder_message:
       "Tell us about your timeline, site location, and project goals.",
     contact_cta: "Send inquiry",
@@ -83,7 +83,7 @@ const translations = {
     footer_studio_heading: "Quick links",
     footer_connect_heading: "Connect",
     footer_rights: "All rights reserved.",
-    footer_madeby: "Website concept for demo purposes."
+    footer_madeby: "A website dedicated to Maamar Al Ghad Contracting"
   },
   ar: {
     home: "الرئيسية",
@@ -95,7 +95,7 @@ const translations = {
     hero_kicker: "تأسس 2024 • استوديو هندسي",
     hero_heading: "نبني بثقة من أجل غدٍ أفضل.",
     hero_subtitle:
-      "في فيوتشر بيلد نمزج بين التكنولوجيا الحديثة والدقة الهندسية لنصمم مساحات تعيد تعريف أسلوب الحياة المعاصر.",
+      "في معمار الغد نمزج بين التكنولوجيا الحديثة والدقة الهندسية لنصمم مساحات تعيد تعريف أسلوب الحياة المعاصر.",
     hero_cta_primary: "احجز استشارة مجانية",
     hero_cta_secondary: "استعرض خدمتنا المميزة",
     hero_stat1_label: "نسبة إنجاز في الموعد",
@@ -152,10 +152,10 @@ const translations = {
     contact_label_budget: "استفسارك عن ماذا",
     contact_label_message: "تفاصيل الموضوع",
     budget_placeholder: "اختر الموضوع",
-    budget_option1: "استفسار عام ",
-    budget_option2: "استفسار عام ",
-    budget_option3: "استفسار عام ",
-    budget_option4: "استفسار عام ",
+    budget_option1: "استشارة هندسية  ",
+    budget_option2: " تنفيذ أعمال بناء ",
+    budget_option3: " تشطيبات ",
+    budget_option4: "تصميم معماري  ",
     contact_placeholder_message:
       "أخبرنا عن موقع المشروع، والجدول الزمني، وأهم أهدافك.",
     contact_cta: "إرسال الطلب",
@@ -165,7 +165,7 @@ const translations = {
     footer_studio_heading:  " راوبط سريعة ",
     footer_connect_heading: "تواصل",
     footer_rights: "جميع الحقوق محفوظة.",
-    footer_madeby: "مفهوم موقع تجريبي لأغراض العرض."
+    footer_madeby: "موقع خاص ب معمار الغد للمقاولات"
   }
 };
 
@@ -435,3 +435,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+document.getElementById("contactMe").addEventListener("submit" ,function(e){
+e.preventDefault();
+let name = document.getElementById("name").value;
+let Email =document.getElementById("email").value;
+let ask =document.getElementById("budget").value;
+let message = document.getElementById("message").value;
+let whatsapp = +971566111730 ;
+let text = 
+
+
+`الاسم:${name}
+الايميل:${Email}
+نوع الاستفسار:${ask}
+الرسالة:${message}`;
+let url = `https://wa.me/${whatsapp}?text=${encodeURIComponent(text)}`
+  window.open(url, "_blank");
+})
