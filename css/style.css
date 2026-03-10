@@ -209,6 +209,23 @@ body.is-rtl {
 transform: translateY(-1px);
   box-shadow: 0 18px 40px rgba(14, 165, 233, 0.4);
 }
+.location {
+  width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: blue;
+    color: white;
+    font-size: 22px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 45px;
+    left: 20px;
+    cursor: pointer;
+}
+.location:hover{
+transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(14, 165, 233, 0.4);
+}
 /* Brand */
 
 .brand {
@@ -700,7 +717,23 @@ text-align: center;
   outline: 1px solid #0ea5e9;
   border-color: #0ea5e9;
 }
+/* اراء العملاء */
 
+.testmoins:hover{
+transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(14, 165, 233, 0.4);
+}
+.stardiv{
+  text-align: center;
+  color: yellow;
+}
+.testmoins-text{
+    text-align: center;
+
+}
+.testmoins-name{
+color: gray;
+}
 /* ===========================
    Footer
    =========================== */

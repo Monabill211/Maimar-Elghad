@@ -23,9 +23,9 @@ const translations = {
     about_kicker: "About the studio",
     about_title: "Crafting tomorrow’s landmarks today.",
     about_paragraph1:
-      "FutureBuild Architects is a multidisciplinary studio dedicated to creating refined, high-performance spaces for discerning clients. From first sketch to final handover, we orchestrate every detail with precision and transparency.",
+      " At Maamar Al Ghad, we are committed to providing integrated construction solutions that exceed our clients' expectations. We achieve this by combining meticulous engineering with the finest building materials to ensure the sustainability and beauty of every project. We strive to be the trusted partner that transforms plans into tangible realities, reflecting innovation and professionalism..",
     about_paragraph2:
-      "Our team brings together architects, engineers, and project managers who share a single goal: to transform ambitious briefs into timeless, functional architecture that elevates everyday life.",
+      "To become the leading strategic partner in the construction sector through our commitment to building sustainable, long-lasting projects, while harnessing advanced engineering expertise to support infrastructure development and contribute to the UAE's renewed urban vision. .",
     services_kicker: "Our services",
     services_title: "End-to-end architectural solutions.",
     services_description:
@@ -83,7 +83,17 @@ const translations = {
     footer_studio_heading: "Quick links",
     footer_connect_heading: "Connect",
     footer_rights: "All rights reserved.",
-    footer_madeby: "A website dedicated to Maamar Al Ghad Contracting"
+    footer_madeby: "A website dedicated to Maamar Al Ghad Contracting",
+     testmoins_text1:"A very excellent company and on-time delivery",
+    testmoins_text2:" Excellent and on-time delivery",
+    testmoins_text3:"Excellent service and high quality",
+    testmoins_name1:"Mohamed salah",
+    testmoins_name2:"salma Ahmed",
+    testmoins_name3:"Hassan Nabil",
+    testmoins:"Customer reviews",
+    testmoins_title:"Some opinions from our valued customers",
+    testmoins_pa:"Some of our valued clients' opinions on our service, project delivery dates, and the quality of our work. ",
+
   },
   ar: {
     home: "الرئيسية",
@@ -105,9 +115,9 @@ const translations = {
     about_kicker: "عن الاستوديو",
     about_title: "نصنع معالم الغد من اليوم.",
     about_paragraph1:
-      "فيوتشر بيلد هو استوديو هندسي متعدد التخصصات يركز على إنشاء مساحات عالية الأداء لعملاء يتطلعون للتميز. ندير مشروعك من أول فكرة حتى التسليم النهائي بأعلى درجات الشفافية.",
+      "نحن في معمار الغد نلتزم بتقديم حلول بناء متكاملة تتجاوز توقعات عملائنا، من خلال دمج الجودة الهندسية الدقيقة مع أفضل مواد البناء لضمان استدامة وجمال كل مشروع. نسعى لأن نكون الشريك الموثوق الذي يحول المخططات إلى واقع ملموس يعكس الابتكار والاحترافية.",
     about_paragraph2:
-      "يجمع فريقنا بين مهندسين معماريين، ومهندسين إنشائيين، ومديري مشاريع يتشاركون هدفاً واحداً: تحويل الرؤى الطموحة إلى واقع معماري عملي وجميل يدوم طويلاً.",
+      "أن نصبح الشريك الاستراتيجي الأول في قطاع الإنشاءات عبر التزامنا ببناء مشاريع مستدامة تعيش طويلاً، مع تسخير الخبرة الهندسية المتطورة لدعم تطور البنية التحتية والمساهمة في رؤية الامارات العمرانية المتجددة.   ",
     services_kicker: "خدماتنا",
     services_title: "حلول معمارية متكاملة.",
     services_description:
@@ -165,7 +175,16 @@ const translations = {
     footer_studio_heading:  " راوبط سريعة ",
     footer_connect_heading: "تواصل",
     footer_rights: "جميع الحقوق محفوظة.",
-    footer_madeby: "موقع خاص ب معمار الغد للمقاولات"
+    footer_madeby: "موقع خاص ب معمار الغد للمقاولات",
+    testmoins_text1:" شركة رائعة جدا و تسليم في الموعد",
+    testmoins_text2:"تسليم ممتاز و في الموعد",
+    testmoins_text3:" تعامل راقي و جودة عالية",
+    testmoins_name1:" محمد صلاح",
+    testmoins_name2:"سلمي احمد",
+    testmoins_name3:" حسن نبيل",
+   testmoins:"اراء عملائنا",
+    testmoins_title:"بعض اراء عملائنا الكرام",
+    testmoins_pa:"بعض من اراء عملائنا الكرام في خدمتنا و موعيد تسليم مشارعنا و جودة شغلانا . ",
   }
 };
 
