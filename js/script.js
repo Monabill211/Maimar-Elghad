@@ -25,8 +25,10 @@ const translations = {
     about_paragraph1:
       " At Maamar Al Ghad, we are committed to providing integrated construction solutions that exceed our clients' expectations. We achieve this by combining meticulous engineering with the finest building materials to ensure the sustainability and beauty of every project. We strive to be the trusted partner that transforms plans into tangible realities, reflecting innovation and professionalism..",
     about_paragraph2:
-      "To become the leading strategic partner in the construction sector through our commitment to building sustainable, long-lasting projects, while harnessing advanced engineering expertise to support infrastructure development and contribute to the UAE's renewed urban vision. .",
-    services_kicker: "Our services",
+      "To become the leading strategic partner in the construction sector through our commitment to building sustainable,long-lasting projects, while harnessing advanced engineering expertise to support infrastructure development and contribute to the UAE's renewed urban vision. .",
+    about_title1:"Company About",
+    about_title2:"Company Goals",
+      services_kicker: "Our services",
     services_title: "End-to-end architectural solutions.",
     services_description:
       "From concept to construction, we provide fully integrated services that keep your project aligned with its vision, budget, and timeline.",
@@ -118,7 +120,9 @@ const translations = {
       "نحن في معمار الغد نلتزم بتقديم حلول بناء متكاملة تتجاوز توقعات عملائنا، من خلال دمج الجودة الهندسية الدقيقة مع أفضل مواد البناء لضمان استدامة وجمال كل مشروع. نسعى لأن نكون الشريك الموثوق الذي يحول المخططات إلى واقع ملموس يعكس الابتكار والاحترافية.",
     about_paragraph2:
       "أن نصبح الشريك الاستراتيجي الأول في قطاع الإنشاءات عبر التزامنا ببناء مشاريع مستدامة تعيش طويلاً، مع تسخير الخبرة الهندسية المتطورة لدعم تطور البنية التحتية والمساهمة في رؤية الامارات العمرانية المتجددة.   ",
-    services_kicker: "خدماتنا",
+        about_title1:"نبذة عن الشركة",
+    about_title2:"اهداف الشركةل",
+      services_kicker: "خدماتنا",
     services_title: "حلول معمارية متكاملة.",
     services_description:
       "نوفّر سلسلة متكاملة من الخدمات من التخطيط المبدئي حتى التنفيذ، لنضمن انسجام المشروع مع رؤيتك وميزانيتك والجدول الزمني.",
